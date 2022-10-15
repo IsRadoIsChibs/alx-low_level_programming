@@ -1,8 +1,8 @@
 #include <stdio.h>
-
 /**
- *Main prints phrase 
- */
+ *Main- prints phrase "with proper grammar, but the outcome is a piece of art,", 
+*return : 0
+*/
 
 int main(void)
 {
