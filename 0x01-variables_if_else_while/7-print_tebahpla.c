@@ -2,14 +2,14 @@
 
 /**
 * main - entry point
-* Description - prints reversed  alphabets
+* Description - prints lowercase alphabets
 * Return: always 0
 */
 int main(void)
 {
 	char ap = 'z';
 
-	for (ap = 'za'; ap >= 'a'; ap--)
+	for (ap = 'z'; ap >= 'a'; ap--)
 	{
 		putchar (ap);
 	}
