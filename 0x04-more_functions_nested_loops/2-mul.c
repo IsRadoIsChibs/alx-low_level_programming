@@ -4,7 +4,7 @@
  * mul - multiply 2 ints
  * @a: int
  * @b:int
-
+ *
  * Return: product of a and b
  */
 
