@@ -1,0 +1,18 @@
+#include "main.h"
+#include <ctype.h>
+
+/**
+* _isupper - checks for uppercase character
+* @c: c is an integer
+*
+* Return: 1 uppercase, 0 otherwise
+*/
+int _isupper(int c)
+{
+	int c;
+
+	isupper(c);
+}
+
+
+
