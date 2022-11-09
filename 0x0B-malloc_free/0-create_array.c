@@ -3,10 +3,11 @@
 #include <stdio.h>
 
 /**
+ * create array - create array and initialize with char c
+ * @size: size of array
+ * @c: initialization char
  *
- *
- *
- *
+ * Return: pointer to array
  */
 char *create_array(unsigned int size, char c)
 {
@@ -21,6 +22,10 @@ char *create_array(unsigned int size, char c)
 	else
 	{
 		str = malloc(size * sizeof(char));
+		if (str == NULL)
+		{
+			return (NULL);
+		}
 		for (a = 0; a < size; a++)
 		{
 			str[a] = c;
