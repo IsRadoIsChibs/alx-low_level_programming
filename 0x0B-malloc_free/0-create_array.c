@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * create array - create array and initialize with char c
+ * create_array - create array and initialize with char c
  * @size: size of array
  * @c: initialization char
  *
@@ -13,11 +13,11 @@ char *create_array(unsigned int size, char c)
 {
 	char *str;
 	unsigned int a;
-	
+
 	if (size == 0)
-	
+
 	{
-		return(NULL);
+		return (NULL);
 	}
 	else
 	{
@@ -30,7 +30,7 @@ char *create_array(unsigned int size, char c)
 		{
 			str[a] = c;
 		}
-		
+
 		return (str);
 	}
 }
