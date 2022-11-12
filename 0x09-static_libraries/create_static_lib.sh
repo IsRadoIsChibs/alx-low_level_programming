@@ -1,3 +1,3 @@
 #!/bin/bash
 gcc -std=gnu89 -c *.c
-ar -rc libschool.a *.o
+ar -rc liball.a *.o
